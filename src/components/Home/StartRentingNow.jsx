@@ -9,8 +9,8 @@ const StartRentingNow = () => {
     >
       <img src={starts2} alt="stars" className="w-full absolute top-0"/>
       <div className="w-full lg:w-[85%] mx-auto bg-black lg:h-[80%] relative rounded-xl py-6">
-        <span className="bg-[#F85E00] w-[200px] h-[200px] rounded-full absolute -left-14 -top-10 -z-20 blur-3xl"></span>
-        <span className="bg-[#F85E00] w-[200px] h-[200px] rounded-full absolute -right-14 -bottom-10 -z-20 blur-3xl"></span>
+        <span className="bg-[#F85E00] w-[200px] h-[200px] rounded-full absolute -left-12 -top-10 -z-20 blur-3xl"></span>
+        <span className="bg-[#F85E00] w-[200px] h-[200px] rounded-full absolute -right-12 -bottom-10 -z-20 blur-3xl"></span>
         <div className="w-full h-full flex flex-col lg:flex-row justify-between items-center gap-y-6">
           <div className="w-full lg:w-[60%] flex flex-col items-start justify-center gap-y-2 lg:gap-y-10 pl-8 pr-6 lg:ps-28">
             <div className="w-[100%] flex flex-col gap-y-6">
