@@ -12,7 +12,7 @@ const StartRentingNow = () => {
         <span className="bg-[#F85E00] w-[200px] h-[200px] rounded-full absolute -left-14 -top-10 -z-20 blur-3xl"></span>
         <span className="bg-[#F85E00] w-[200px] h-[200px] rounded-full absolute -right-14 -bottom-10 -z-20 blur-3xl"></span>
         <div className="w-full h-full flex flex-col lg:flex-row justify-between items-center gap-y-6">
-          <div className="w-full lg:w-[60%] flex flex-col items-start justify-center gap-y-2 lg:gap-y-10 px-8 lg:ps-28">
+          <div className="w-full lg:w-[60%] flex flex-col items-start justify-center gap-y-2 lg:gap-y-10 pl-8 pr-6 lg:ps-28">
             <div className="w-[100%] flex flex-col gap-y-6">
               <h1 className="text-white text-5xl lg:text-[48px] font-bold">
                 Start Renting Now!
