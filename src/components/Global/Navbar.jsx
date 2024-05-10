@@ -18,24 +18,24 @@ const Navbar = () => {
       className={`w-full ${styles.paddingHorizontal} py-6 flex items-center justify-between relative`}
     >
       <div>
-        <img src={Logo} alt="" className="z-30"/>
+        <img src={Logo} alt="" className="z-30" />
       </div>
       <div className="hidden lg:flex items-center gap-x-12">
         <Link to="/" className="font-medium text-sm text-[#F85E00]">
           Home
         </Link>
-        <Link to="#features" className="font-medium text-sm">
+        <a href="#features" className="font-medium text-sm">
           Features
-        </Link>
-        <Link to="#howitworks" className="font-medium text-sm">
+        </a>
+        <a href="#howitworks" className="font-medium text-sm">
           How it works
-        </Link>
-        <Link to="#aboutus" className="font-medium text-sm">
+        </a>
+        <a href="#aboutus" className="font-medium text-sm">
           About us
-        </Link>
-        <Link to="#contactus" className="font-medium text-sm">
+        </a>
+        <a href="#contactus" className="font-medium text-sm">
           Contact us
-        </Link>
+        </a>
       </div>
       <button
         className="text-black text-2xl block lg:hidden z-10"
@@ -54,18 +54,18 @@ const Navbar = () => {
             <Link to="/" className="font-medium text-sm text-[#F85E00]">
               Home
             </Link>
-            <Link to="/" className="font-medium text-sm">
+            <a href="#features" className="font-medium text-sm">
               Features
-            </Link>
-            <Link to="/" className="font-medium text-sm">
+            </a>
+            <a href="#howitworks" className="font-medium text-sm">
               How it works
-            </Link>
-            <Link to="/" className="font-medium text-sm">
+            </a>
+            <a href="#aboutus" className="font-medium text-sm">
               About us
-            </Link>
-            <Link to="/" className="font-medium text-sm">
+            </a>
+            <a href="#contactus" className="font-medium text-sm">
               Contact us
-            </Link>
+            </a>
           </div>
         </div>
       </div>
