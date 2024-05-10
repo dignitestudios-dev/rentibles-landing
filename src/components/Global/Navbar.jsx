@@ -38,7 +38,7 @@ const Navbar = () => {
         </Link>
       </div>
       <button
-        className="text-black text-2xl block lg:hidden"
+        className="text-black text-2xl block lg:hidden z-10"
         onClick={() => setOpenNav((prev) => !prev)}
       >
         <TbMenuDeep />
