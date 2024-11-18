@@ -11,14 +11,14 @@ import StartRentingNow from "../components/Home/StartRentingNow"
 const Home = () => {
   return (
     <div className="overflow-x-hidden overflow-y-auto">
-      <Navbar />
+
       <Hero />
       <Features />
       <HowItWorks />
       <AboutUs />
       <Contact />
       <StartRentingNow />
-      <Footer />
+
     </div>
   );
 };

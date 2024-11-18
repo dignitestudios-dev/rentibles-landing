@@ -59,16 +59,23 @@ const Footer = () => {
         <div className="flex justify-center items-center gap-x-1">
           <Link
             className="text-sm font-normal leading-[16.17px]"
-            to={"/"}
+            to={"/terms"}
           >
             Terms & Conditions
           </Link>
           <span>/</span>
           <Link
             className="text-sm font-normal leading-[16.17px]"
-            to={"/"}
+            to={"/privacy"}
           >
             Privacy Policy
+          </Link>
+          <span>/</span>
+          <Link
+            className="text-sm font-normal leading-[16.17px]"
+            to={"/cookie"}
+          >
+            Cookie Policy
           </Link>
         </div>
       </div>
