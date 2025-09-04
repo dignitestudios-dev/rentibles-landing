@@ -27,7 +27,7 @@ const StartRentingNow = () => {
               </Link>
               <Link to="/" target="_blank">
                 <img src={AppStoreImg} alt="" className="w-[189px] h-[61px]" />
-              </Link>
+              </Link> 
             </div>
           </div>
           <div className="w-full lg:w-[50%] flex items-center justify-end">
