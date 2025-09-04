@@ -1,5 +1,5 @@
 import React from "react";
-import { AppStoreImg, PlayStoreImg, RentNowLines, StartRentingNow2, starts2 } from "../../assets/export";
+import { AppStoreImg, PlayStoreImg, RentNowLines, RentNowLines2, shadow, StartRentingNow2, starts2 } from "../../assets/export";
 import { Link } from "react-router-dom";
 
 const StartRentingNow = () => {
@@ -8,7 +8,7 @@ const StartRentingNow = () => {
       className={` lg:h-screen py-6 lg:py-8 start-ranting-now-section relative flex z-20 flex-col items-start justify-center my-16 md:mt-24 lg:mt-4`}
     >
       <img src={starts2} alt="stars" className="w-full absolute top-0"/>
-      <div className="w-full lg:w-[85%] mx-auto bg-black lg:h-[80%] relative rounded-xl py-6">
+      <div className="w-full lg:w-[85%] mx-auto bg-black lg:h-[90%] relative rounded-xl overflow-hidden">
         <span className="bg-[#F85E00] w-[200px] h-[200px] rounded-full absolute -left-12 -top-10 -z-20 blur-3xl"></span>
         <span className="bg-[#F85E00] w-[200px] h-[200px] rounded-full absolute -right-12 -bottom-10 -z-20 blur-3xl"></span>
         <div className="w-full h-full flex flex-col lg:flex-row justify-between items-center gap-y-6">
@@ -21,7 +21,7 @@ const StartRentingNow = () => {
                 Download the Rentibles app and unlock a world of possibilities.
               </p>
             </div>
-            <div className="flex items-center gap-4 z-30">
+            <div className="flex items-center gap-4 z-30 ">
               <Link to="/" target="_blank">
                 <img src={PlayStoreImg} alt="" className="w-[189px] h-[61px] cursor-pointer" />
               </Link>
@@ -35,6 +35,8 @@ const StartRentingNow = () => {
           </div>
         </div>
         <img src={RentNowLines} alt="stars" className="z-20 absolute bottom-0"/>
+        <img src={shadow} alt="stars" className="z-20 absolute top-[20px] -right-[0px] h-[650px] w-[650px]"/>
+        <img src={RentNowLines2} alt="stars" className="z-20 absolute bottom-0 right-0 w-[40%]"/>
       </div>
     </div>
   );
