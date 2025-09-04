@@ -37,9 +37,7 @@ const FeatureAccordion = ({ title, text, num }) => {
         <div
           className={`transition-all duration-300 text-base font-normal text-[#717171]`}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio delectus
-          ullam distinctio ratione est excepturi esse fugit, temporibus
-          possimus! Itaque.
+          {text}
         </div>
       )}
     </div>
