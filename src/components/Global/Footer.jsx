@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTiktok } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { Logo } from "../../assets/export";
 import { styles } from "../../styles/styles";
@@ -19,36 +19,60 @@ const Footer = () => {
             Find us on Social Media
           </p>
           <div className="flex items-center justify-center gap-x-6">
-            <Link
-              to="https://www.facebook.com"
+            <a
+              href="https://www.facebook.com/profile.php?id=61584050936731"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-11 h-11 border-[1px] border-black rounded-full flex justify-center items-center"
             >
               <FaFacebookF className="w-5 h-5" />
-            </Link>
-            <Link
-              to="https://www.twitter.com"
+            </a>
+            <a
+              href="https://www.instagram.com/rentibles"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-11 h-11 border-[1px] border-black rounded-full flex justify-center items-center"
+            >
+              <FaInstagram className="w-5 h-5" />
+            </a>
+            <a
+              href="https://www.x.com/rentibles"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-11 h-11 border-[1px] border-black rounded-full flex justify-center items-center"
             >
               <FaTwitter className="w-5 h-5" />
-            </Link>
-            <Link
-              to="https://www.linkedin.com"
+            </a>
+            <a
+              href="https://www.linkedin.com/company/rentibles"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-11 h-11 border-[1px] border-black rounded-full flex justify-center items-center"
             >
               <FaLinkedinIn className="w-5 h-5" />
-            </Link>
+            </a>
+            <a
+              href="https://www.tiktok.com/@rentibles1270"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-11 h-11 border-[1px] border-black rounded-full flex justify-center items-center"
+            >
+              <FaTiktok className="w-5 h-5" />
+            </a>
           </div>
         </div>
         <div className="col-span-12 md:col-span-4 flex flex-col items-start lg:items-end gap-y-4">
           <p className="text-xl font-semibold leading-[23.1px]">
             We’re always happy to help.
           </p>
-          <Link
-            to="mailto:support@rentibles.com"
+          <a
+            href="mailto:support@rentibles.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className={`text-sm font-normal leading-[16.17px]`}
           >
             support@rentibles.com
-          </Link>
+          </a>
         </div>
       </div>
       <hr />

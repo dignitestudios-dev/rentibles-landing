@@ -9,9 +9,9 @@ const HowItWorks = () => {
         <div className="col-span-2 lg:col-span-1 flex flex-col gap-y-4 justify-center lg:pr-8">
           <h1 className="text-5xl md:text-[65px] font-extrabold">How it Works</h1>
           <div className="flex flex-col gap-y-4 lg:px-6">
-            <h2 className="text-[30px] font-semibold">For Renters</h2>
-            <p className="text-base font-medium text-[#777777]">
-              The Rentalibles experience begins with exploration. Dive into our
+            <h2 className="font-semibold text-[24px] text-[#171717]">For Renters</h2>
+            <p className="font-medium text-sm text-[#818181]">
+              The Rentibles experience begins with exploration. Dive into our
               extensive catalog boasting a diverse array of items available for
               rent. Once you've found the perfect fit, booking is a breeze.
               Simply select your desired item, customize your rental period, and
@@ -19,9 +19,9 @@ const HowItWorks = () => {
               Then, it's time to meet the lender and pick up your item, ready to
               embark on your rental adventure hassle-free.
             </p>
-            <h2 className="text-[30px] font-semibold">For Lenders</h2>
-            <p className="text-base font-medium text-[#777777]">
-              Rentalibles offers a platform to showcase your items and unlock
+            <h2 className="font-semibold text-[24px] text-[#171717]">For Lenders</h2>
+            <p className="font-medium text-sm text-[#818181]">
+              Rentibles offers a platform to showcase your items and unlock
               earning potential. It all starts with listing your items – upload
               photos, provide detailed descriptions, and set your rental terms
               to attract potential renters. Then, sit back and review rental
@@ -29,7 +29,7 @@ const HowItWorks = () => {
               you're in control every step of the way. And as your items find
               new homes within your community, you'll be earning extra income
               effortlessly, all while contributing to a more sustainable sharing
-              economy
+              economy.
             </p>
           </div>
         </div>

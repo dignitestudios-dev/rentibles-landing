@@ -18,7 +18,7 @@ const StartRentingNow = () => {
                 Start Renting Now!
               </h1>
               <p className="text-[18px] font-normal text-white">
-                Download the Rentibles app and unlock a world of possibilities..
+                Download the Rentibles app and unlock a world of possibilities.
               </p>
             </div>
             <div className="flex items-center gap-4 z-30 ">

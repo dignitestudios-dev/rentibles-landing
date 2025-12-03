@@ -15,7 +15,7 @@ const AboutUs = () => {
         </div>
         <div className="col-span-2 lg:col-span-1 flex flex-col gap-y-4 justify-center lg:pr-8 order-1 lg:order-2">
           <h1 className="text-5xl md:text-[65px] font-extrabold">About us</h1>
-          <p className="text-base font-medium text-[#777777]">
+          <p className="font-medium text-sm text-[#818181]">
             At Rentibles, we're passionate about creating a sharing economy
             where people can access the items they need without the burden of
             ownership. Our journey began with a vision to transform the way we
