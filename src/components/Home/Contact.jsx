@@ -25,16 +25,13 @@ const Contact = () => {
     if (!data.name || !data.phone || !data.email || !data.message) {
       alert("Please fill all the fields");
     } else {
-      const response = await fetch(
-        "",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(data),
-        }
-      );
+      const response = await fetch("", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
 
       const res = await response.json();
       console.log("res >> ", res);
@@ -66,8 +63,7 @@ const Contact = () => {
             <div className="flex items-center gap-x-2">
               <MdLocationOn className="text-3xl" />
               <span className="text-[#515151] text-sm font-normal leading-[21px]">
-                Rentibles Headquarters: 123 Rental Street Shareville, Rentopia
-                RNT 4567, United Rentals
+                Rentibles LLC 382 NE 191ST ST NUM 857346, Miami, FL 33179
               </span>
             </div>
           </div>
