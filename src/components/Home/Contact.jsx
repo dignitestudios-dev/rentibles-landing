@@ -81,7 +81,7 @@ const Contact = () => {
             <div className="flex items-center gap-x-2">
               <BiSolidPhoneCall className="text-xl" />
               <span className="text-[#515151] text-sm font-normal leading-[21px]">
-                123-456-7890
+                516-RENTALL (516-736-8255)
               </span>
             </div>
           </div>

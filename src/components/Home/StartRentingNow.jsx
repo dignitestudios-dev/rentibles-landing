@@ -22,10 +22,10 @@ const StartRentingNow = () => {
               </p>
             </div>
             <div className="flex items-center gap-4 z-30 ">
-              <Link to="/" target="_blank">
+              <Link to="https://play.google.com/store/apps/details?id=com.dignitestudios.rentibles" target="_blank">
                 <img src={PlayStoreImg} alt="" className="w-[189px] h-[61px] cursor-pointer" />
               </Link>
-              <Link to="/" target="_blank">
+              <Link to="https://apps.apple.com/us/app/rentibles/id6736932149" target="_blank">
                 <img src={AppStoreImg} alt="" className="w-[189px] h-[61px]" />
               </Link> 
             </div>
